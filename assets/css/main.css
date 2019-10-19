@@ -179,13 +179,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
-		color: #ffffff;
+		color: #fc0606;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #ffffff !important;
+			color: #06fa26 !important;
 		}
 
 		a.special:not(.button) {
@@ -2093,6 +2093,10 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	.inner article h3, p {
+		color: rgb(255, 0, 255);
+	}
+
 /* Form */
 
 	form {
@@ -2168,7 +2172,7 @@ input, select, textarea {
 		}
 
 	label {
-		color: #ffffff;
+		color: #000000;
 		display: block;
 		font-family: Raleway, Helvetica, sans-serif;
 		font-size: 0.8em;
@@ -2191,7 +2195,7 @@ input, select, textarea {
 		background: rgba(255, 255, 255, 0.025);
 		border-radius: 5px;
 		border: none;
-		border: solid 2px rgba(255, 255, 255, 0.125);
+		border: solid 2px rgb(255, 158, 2);
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -3382,6 +3386,7 @@ input, select, textarea {
 
 	#banner {
 		padding: 10em 0 4.75em 0 ;
+		background-image: url(images\blogging-desk-notebook-34658.jpg);
 	}
 
 		#banner .inner {
@@ -3628,7 +3633,7 @@ input, select, textarea {
 	}
 
 	.wrapper {
-		background-color: #2e3141;
+		background-color: #5ea2fc;
 		margin: 6.5em 0;
 		position: relative;
 	}
@@ -4051,7 +4056,7 @@ input, select, textarea {
 
 			#footer .inner .copyright li {
 				border-left: solid 2px rgba(255, 255, 255, 0.125);
-				color: rgba(255, 255, 255, 0.35);
+				color: rgba(255, 0, 0, 0.35);
 				display: inline-block;
 				font-size: 0.9em;
 				line-height: 1;
